@@ -1,0 +1,151 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ #right-panel {
+	/* font-family: 'Roboto','sans-serif'; */
+	line-height: 30px;
+}
+#right-panel select, #right-panel input {
+	font-size: 15px;
+}
+
+#right-panel select {
+	width: 100%;
+}
+
+#right-panel i {
+	font-size: 12px;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.displayMap{
+	padding-right: 20px;
+}
+#map123,#vsz_rp_map_display {
+	height: 500px;
+	border: solid 2px #ccc;
+	padding: 5px;
+}
+#right-panel {
+	width: 100%;
+	text-align: left;
+	padding-top: 0;
+	overflow-x: hidden;
+}
+.display-list {
+	margin-top: 30px;
+	height: auto;
+	margin-bottom: 15px;
+}
+/********** custom *******/
+.hd-typ2{
+	font-family: inherit;
+  	font-size: 20px;
+  	line-height: normal;
+  	margin-bottom: 15px;
+}
+.hd-typ3{
+	font-family: inherit;
+  	font-size: 22px;
+  	line-height: normal;
+  	margin-bottom: 15px;
+}
+#right-panel textarea.form-control{
+  	height: 34px;
+  	resize: none;
+}
+#right-panel .form-group{
+	position: relative;
+	padding-right: 25px;
+}
+.mrgB15{
+  	margin-bottom:15px;
+}
+.mrgT15{
+  	margin-top: 15px;
+}
+.mrgR25{
+	margin-right: 25px;
+}
+.waypointsDiv .waypoint-col-add{
+  	padding-right: 0;
+}
+.waypointsDiv .waypoint-col-zip{
+  	padding-left: 30px;
+}
+.form-group.col-md-2.start-zip{
+  	width: 19.5%;
+}
+.box-typ1{
+	margin-bottom: 15px;
+	display: block;
+}
+#directions-panel tr td:nth-child(2n){
+	padding-left: 30px;
+}
+.box-typ1 .title{
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-bottom:solid 1px #ccc;
+	padding-bottom:5px;
+}
+.box-typ1 .address{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.box-typ1 .distance{
+	font-size: 14px;
+}
+.loader-route{
+	display: none;
+	position: fixed;
+	top: 0;left: 0;right: 0;bottom: 0;
+	background-color: rgba(255,255,255,0.7);
+	background-image: url(../images/default.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.printWholeSection{
+	width: 100%;
+}
+.removeButton{
+	font-size: 22px;
+	color: #ff0000;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;
+	right: 0;
+}
+.removeButton:hover{
+	text-decoration: none;
+	color: #ff0000;
+	opacity: 0.7;
+}
+
+@media print {
+	.display-list{
+		width:100%;
+	}
+	#map123,#vsz_rp_map_display{
+		height: 500px;
+	}
+	.displayMap{
+		padding-right: 0px;
+	}
+}
+.display-shortcode{
+	background-color: #dddd00;
+	padding: 8px 5px;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 50px;
+}
+.h1-type{
+	display: inline-block;
+}

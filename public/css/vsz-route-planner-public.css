@@ -1,0 +1,155 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .rp-h1-type{
+ 	margin-top: 0;
+ 	font-family: inherit;
+ 	font-size: 22px;
+ 	font-weight: 600;
+ 	margin-bottom: 15px;
+ 	line-height: 26px;
+ }
+ .rp-right-panel{
+ 	width: 100%;
+ }
+
+ .rp-hd-typ2{
+ 	font-family: inherit;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	margin-bottom: 15px;
+ 	line-height: 18px;
+ }
+
+.rp-right-panel input.rp-btn-typ1{
+ 	appearance: none;
+ 	-webkit-appearance: none;
+ 	-moz-appearance: none;
+ 	border: solid 1px #337ab7;
+ 	-webkit-border: solid 1px #337ab7;
+ 	padding: 6px 12px;
+ 	background-color: #337ab7;
+ 	background-image: none;
+ 	color: #fff;
+ 	box-shadow: none;
+ 	-webkit-box-shadow: none;
+ 	text-shadow: none;
+ 	transition: background 0.3s ease;
+ 	-webkit-transition: background 0.3s ease;
+ 	margin-bottom: 15px;
+ 	border-radius: 2px;
+ }
+.rp-right-panel  input.rp-btn-typ1:hover{
+ 	background-color: transparent;
+ 	background-image: none;
+ 	border: solid 1px #337ab7;
+ 	color: #337ab7;
+ }
+ .rp-right-panel .rp-add-del input.rp-btn-typ1 {
+ 	width: 100%;
+ }
+ .rp-g-map{
+ 	width: 100%;
+ 	min-height: 400px
+ }
+
+ .rp-right-panel textarea.form-control{
+ 	height: 35px;
+ 	resize: none;
+ }
+  .rp-right-panel textarea.form-control:focus{
+  	border-color: #337ab7;
+  	outline: none;
+  	box-shadow: none;
+  	-webkit-box-shadow: none;
+  }
+ .rp-right-panel .form-group{
+ 	position: relative;
+ }
+ .rp-remove{
+ 	position: absolute;
+ 	top: 50%;
+ 	right: -15px;
+ 	transform: translateY(-50%);
+ 	-webkit-transform: translateY(-50%);
+ 	color: #ff0000;
+ 	opacity: 0.8;
+ }
+  .rp-remove:hover{
+  	color: #ff0000;
+  	opacity: 1;
+  }
+
+ .rp-loader{
+ 	display: none;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	background-color: rgba(255,255,255,0.6);
+ 	background-image: url();
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+ }
+ .rp-map-wrapper{
+ 	overflow-x: hidden;
+ 	margin-bottom: 15px;
+ }
+ .rp-map-wrapper .displayMap{
+ 	width: 100000px !important;
+ }
+
+ .rp-del-list-panel table, .rp-del-list-panel table tr, .rp-del-list-panel table td{
+ 	border: none;
+ }
+ .rp-head-tr{
+ 	background-color: #e7e7e7;
+ }
+  .rp-head-tr td{
+ 	padding: 5px 10px;
+ }
+.rp-del-list-panel table tr.rp-detail-tr{
+ 	border-bottom: solid 1px #e7e7e7;
+ }
+ .rp-detail-tr td{
+ 	padding-top: 15px;
+ }
+ .rp-del-list-panel table tr.rp-detail-tr:last-child{
+ 	border-bottom: none;
+}
+.rp-head-table{
+	margin-bottom: 0;
+  table-layout: fixed;
+}
+.rp-head-table .rp-head-tr .map-title,.rp-head-table .rp-head-tr #route-total{
+	width: 50%;
+}
+@media(max-width: 767px){
+.rp-g-map{
+    min-height: 250px;
+}
+.rp-head-table .rp-head-tr .map-title,.rp-head-table .rp-head-tr #route-total{
+	width: 100%;
+  display: block;
+  text-align: center;
+}
+}
+@media print {
+.rp-print-hide{
+    display:none !important;
+}
+.rp-head-table .rp-head-tr .map-title,.rp-head-table .rp-head-tr #route-total{
+  width: 50%;
+  display: table-cell;
+
+}
+.rp-head-table .rp-head-tr .map-title{
+  text-align: left;
+}
+.rp-head-table .rp-head-tr #route-total{
+  text-align: right;
+}
+}

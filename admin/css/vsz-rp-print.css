@@ -1,0 +1,61 @@
+@media print {
+	.display-list{
+		width:100%;
+	}
+	#map123{
+		height: 500px;
+		margin-bottom: 5px;
+	}
+	#directions-panel-listing .list-section{
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+	.displayMap{
+		padding-right: 0px;
+	}
+	body {padding: 0px 20px;}
+    #printButton{display: none;}
+	#map123,#vsz_rp_map_display{
+		height: 500px;
+	}
+	#vsz_rp_map_display {
+		margin: 0px 0 20px 0;
+	}
+	.printWholeSection .box-typ1 .title {
+		font-size: 16px;
+		margin-bottom: 10px;
+		border-bottom: solid 1px #ccc;
+		padding-bottom: 5px;
+	}
+	.list-section.padding-new {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 20px;
+	}
+	.list-section .hd-typ2.map-title {
+		display: inline-block;
+		width:50%;
+	}
+	#route-total{
+		display: inline-block;
+		width:50%;
+	}
+	.list-section.padding-new p{
+		margin: 0 0 10px;
+	}
+	.printWholeSection .hd-typ2 {
+		font-family: inherit;
+		font-size: 20px;
+		line-height: normal;
+		margin-bottom: 7px;
+	}
+	b, strong {
+		font-weight: bold;
+	}
+	.printWholeSection .display_note{
+		padding-bottom: 5px;
+	}
+	#route-total.text-right{
+		text-align:left;
+	}
+}
